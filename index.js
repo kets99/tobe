@@ -42,7 +42,7 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.listen(port.);
+app.listen(process.env.PORT);
 
 
 module.exports = app;
