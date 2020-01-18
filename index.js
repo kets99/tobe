@@ -17,7 +17,7 @@ var app = express();
 // var exphbs = require('express-handlebars');
 
 // var handlebars = require('express-handlebars');
-app.use(express.static(path.join(__dirname,"assets")));
+app.use(express.static(path.join(__dirname,"")));
 // app.use(require('cookie-parser')());
 //app.use(require('body-parser').urlencoded({ extended: true }));
 
