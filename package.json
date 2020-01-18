@@ -4,7 +4,7 @@
   "description": "Having video streaming features integrated inside an application can be very tedious and time-consuming. Maintaining a low-latency video server, load balancing, listening to end-user events(screen off, reload etc.) are some really painful hassles not to mention having cross-platform compatibility.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start" : "node index.js"
   },
   "repository": {
     "type": "git",
