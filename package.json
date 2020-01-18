@@ -1,0 +1,19 @@
+{
+  "name": "agora-demo-web",
+  "version": "1.0.0",
+  "description": "Having video streaming features integrated inside an application can be very tedious and time-consuming. Maintaining a low-latency video server, load balancing, listening to end-user events(screen off, reload etc.) are some really painful hassles not to mention having cross-platform compatibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technophilic/Agora-demo-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technophilic/Agora-demo-web/issues"
+  },
+  "homepage": "https://github.com/technophilic/Agora-demo-web#readme"
+}
