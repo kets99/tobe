@@ -18,9 +18,9 @@ var app = express();
 
 // var handlebars = require('express-handlebars');
 
-app.use(express.static(path.join(__dirname,"assets")));
+//app.use(express.static(path.join(__dirname,"assets")));
 // app.use(require('cookie-parser')());
-app.use(require('body-parser').urlencoded({ extended: true }));
+//app.use(require('body-parser').urlencoded({ extended: true }));
 
 
 // app.engine('handlebars', exphbs({
@@ -39,7 +39,7 @@ var path = require('path');
 
 // viewed at http://localhost:8080
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join('/index.html'));
 });
 
 app.listen(process.env.PORT);
