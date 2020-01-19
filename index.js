@@ -17,7 +17,7 @@ var app = express();
 // var exphbs = require('express-handlebars');
 
 // var handlebars = require('express-handlebars');
-app.use(express.static(path.join(__dirname,"assets")));
+app.use(express.static(path.join(__dirname,"")));
 // app.use(require('cookie-parser')());
 //app.use(require('body-parser').urlencoded({ extended: true }));
 
@@ -35,6 +35,15 @@ app.use(express.static(path.join(__dirname,"assets")));
 
 var app = express();
 var path = require('path');
+
+const bodyParser = require('body-parser');
+
+//body parser middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, 'assets')));
+
+
 
 // viewed at http://localhost:8080
 app.get('/', function(req, res) {
