@@ -19,7 +19,7 @@ var app = express();
 // var handlebars = require('express-handlebars');
 app.use(express.static(path.join(__dirname,"")));
 // app.use(require('cookie-parser')());
-//app.use(require('body-parser').urlencoded({ extended: true }));
+app.use(require('body-parser').urlencoded({ extended: true }));
 
 
 // app.engine('handlebars', exphbs({
@@ -33,8 +33,6 @@ app.use(express.static(path.join(__dirname,"")));
 // });
 
 
-var app = express();
-var path = require('path');
 
 const bodyParser = require('body-parser');
 
